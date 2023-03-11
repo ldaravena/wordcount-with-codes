@@ -15,6 +15,7 @@
 <configuration>
 
 <!-- Site specific YARN configuration properties -->
+        <!-- Configuración básica de YARN: -->
         <property>
                 <name>yarn.resourcemanager.hostname</name>
                 <value>master</value>
@@ -63,7 +64,6 @@
 <!-- FIN SOLO MASTER -->
 
 <!-- CONFIGURACION DE RECURSOS -->
-
         <property>
                 <name>yarn.scheduler.minimum-allocation-mb</name>
                 <value>1024</value>

@@ -25,10 +25,12 @@
                 <name>dfs.datanode.data.dir</name>
                 <value>/opt/hadoop-3.3.1/data/dataNode</value>
         </property>
+        <!-- Factor de replicación de los bloques: -->
         <property>
                 <name>dfs.replication</name>
                 <value>1</value>
         </property>
+        <!-- Tamaño del bloque en Bytes: -->
         <property>
                 <name>dfs.block.size</name>
                 <value>134217728</value>

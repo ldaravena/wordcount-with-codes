@@ -17,11 +17,11 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-
         <property>
                 <name>mapreduce.framework.name</name>
                 <value>yarn</value>
         </property>
+        <!-- Configuración de los ambientes -->
         <property>
                 <name>yarn.app.mapreduce.am.env</name>
                 <value>HADOOP_MAPRED_HOME=/opt/hadoop-3.3.1/etc/hadoop:/opt/hadoop-3.3.1/share/hadoop/common/lib/*:/opt/hadoop-3.3.1/share/hadoop/common/*:/opt/hadoop-3.3.1/share/hadoop/hdfs:/opt/hadoop-3.3.1/share/hadoop/hdfs/lib/*:/opt/hadoop-3.3.1/share/hadoop/hdfs/*:/opt/hadoop-3.3.1/share/hadoop/mapreduce/*:/opt/hadoop-3.3.1/share/hadoop/yarn:/opt/hadoop-3.3.1/share/hadoop/yarn/lib/*:/opt/hadoop-3.3.1/share/hadoop/yarn/*
