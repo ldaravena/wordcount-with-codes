@@ -8,6 +8,9 @@ Programa en C++ para eliminar caracteres que no sean letras ni números de archi
 ## cleantext_wordsperline.cpp
 Al igual que *limpiar_texto.cpp*, este programa escrito en C++ limpia los archivos de texto de entrada y además permite establecer cuántas palabras contienen las líneas de texto del archivo de salida. Fue utilizado con el dataset obtenido de la Wikipedia en inglés. Este programa se ejecuta fuera del cluster.
 
+## n_words_per_line.sh
+Este script escrito en Bash recibe dos argumentos: el nombre de un archivo de texto y un número entero que representa cuántas palabras tendrá cada línea de texto. Con lo cual se genera un archivo de texto cambiando el número de palabras por línea. Fue utilizado con el dataset *English limpio* para generar archivos de texto con diferentes números de palabras por línea para hacer pruebas con la aplicación WordCount. Este script se ejecuta fuera del cluster.
+
 ## iniciar.sh, terminar.sh, reiniciar.sh:
 Estos tres scripts simples escritos en Bash permiten iniciar, terminar y reiniciar los servicios de Hadoop: **HDFS**, **YARN** y **HistoryServer**. Se ejecutan desde el nodo Master.
 
